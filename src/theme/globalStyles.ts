@@ -1,12 +1,14 @@
-import { createGlobalStyle } from 'styled-components'
+import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
     html,
-    body {
+    body,
+    #root {
         display: flex;
         flex-direction: column;
         height: 100%;
         width: 100%;
-        background-color: #fff;
+        background-color: #e2d5de;
+        font-family: Roboto, 'Courier New', Courier, monospace;
     }
 `;

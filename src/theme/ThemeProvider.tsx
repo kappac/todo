@@ -6,7 +6,11 @@ const theme = {
         primary: {
             basic: '#3b71ca',
             on: '#fff',
+            background: '#fff',
         },
+    },
+    border: {
+        radius: '4px',
     },
 };
 
